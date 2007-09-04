@@ -1,0 +1,5 @@
+Kemaileon : Credits
+
+Kemaileon is based on scripts originally posted on PHP.net by 
+ - pedram at redhive dot com <http://www.php.net/bin2hex#11027>
+ - and merwetta_at_hotmail.com <http://www.php.net/function.ord#24475>
