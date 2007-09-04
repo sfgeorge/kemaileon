@@ -6,8 +6,8 @@ DirectoryIndex index.html
 # If index.html is not present, do not list the contents of this directory.
 IndexIgnore *
 
-# Explictly forbid direct access to *.inc files in this directory.
-<Files ~ "\.inc.php$">
+# Explictly forbid direct access to *.php files in this directory.
+<Files ~ "\.php$">
     order allow,deny
     deny from all
 </Files>
