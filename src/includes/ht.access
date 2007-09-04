@@ -1,0 +1,13 @@
+# If your Apache Web Server allows you to use .htaccess files, rename this file to .htaccess
+
+# Set the default page of this directory to index.html
+DirectoryIndex index.html
+
+# If index.html is not present, do not list the contents of this directory.
+IndexIgnore *
+
+# Explictly forbid direct access to *.inc files in this directory.
+<Files ~ "\.inc.php$">
+    order allow,deny
+    deny from all
+</Files>
